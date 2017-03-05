@@ -6,3 +6,24 @@ header, main, footer {
 a {
   color: black;
 }
+
+.column1of3, .column2of3, .column3of3 {
+  border: 1px solid black;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+
+footer p {
+  font-family: arial;
+  text-align: right;
+}
+
+.social-media {
+  display: table;
+  margin: auto auto;
+}
+
+.social-media img {
+  height: 3em;
+}
