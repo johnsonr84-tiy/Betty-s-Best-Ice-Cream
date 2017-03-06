@@ -13,7 +13,7 @@ header a {
 
 .home-name {
   color: blue;
-  text: 20px;
+  text: 40px;
 }
 
 
@@ -25,8 +25,8 @@ header a {
   margin: 0%;
 }
 
-.color-banner {
-  background-repeat: repeat-x;
+#feature {
+
 }
 
 .logo {
@@ -38,6 +38,21 @@ header a {
   margin-top: -4rem;
 }
 
+.hours {
+  text-align: left;
+  position: relative;
+  border: 1px solid black;
+  height: auto;
+  /*background-color: white;*/
+}
+
+.display {
+  height: 200px;
+  position: absolute;
+  margin-left: -11rem;
+  margin-top: 1rem;
+}
+
 .column1, .column2, .column3 {
   border: 1px solid black;
   width: 30%;
@@ -47,12 +62,21 @@ header a {
 }
 
 .column3 {
-  margin-right: 0%
+  margin-right: -2rem;
 }
 
 li {
   display: inline;
   padding: 3em;
+}
+
+li.betty {
+  display: inline;
+  font-size: 30px;
+}
+
+.home-name li {
+  font-size: 14px;
 }
 
 #nav, #footer {
@@ -64,7 +88,7 @@ li {
 #feature, .article {
   height: 20em;
   margin-bottom: 1em;
-  background-color: #efefef;
+  /*background-color: #efefef;*/
   text-align: center;
 }
 
@@ -84,12 +108,12 @@ footer p {
 }
 
 .social-media {
-    height: 1%;
-    right: 0;
-    bottom: 0;
-    left:0;
-    padding: 1rem;
-    text-align: center;
+  height: 5%;
+  right: 0;
+  bottom: 0;
+  left:0;
+  padding: 1rem;
+  text-align: center;
   }
 
 .copyright {
